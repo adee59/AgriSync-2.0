@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-space: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-agri-primary: #0D3B22;
+  --color-agri-primary-dark: #082415;
+  --color-agri-secondary: #4E7B62;
+  --color-agri-slate: #1E293B;
+  --color-agri-muted: #64748B;
+  --color-agri-canvas: #F8FAFC;
+  --color-agri-card: #FFFFFF;
+  --color-agri-border: #E2E8F0;
+  --color-agri-optimal: #10B981;
+  --color-agri-warning: #F59E0B;
+  --color-agri-critical: #EF4444;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8FAFC;
+  color: #0B1C30;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono-telemetry {
+  font-family: 'JetBrains Mono', monospace;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+
+/* Custom scrollbar for data dense telemetry views */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

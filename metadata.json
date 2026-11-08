@@ -1,0 +1,6 @@
+{
+  "name": "AgriSync Enterprise — Autonomous AgTech Platform",
+  "description": "Mission-critical autonomous multi-agent telemetry orchestration, deterministic conflict-resolution heuristic matrix, XAI glass-box console, and B2B AgTech marketplace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
